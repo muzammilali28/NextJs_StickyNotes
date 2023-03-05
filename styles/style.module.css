@@ -1,0 +1,58 @@
+.h1 {
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: red;
+}
+
+.wrapper {
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: auto;
+}
+
+.navbar {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #008cba;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbarBrand {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.create:hover{
+    color: #fff;
+}
+
+.formContainer {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.notesContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
